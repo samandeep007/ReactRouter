@@ -74,9 +74,9 @@ export default function App() {
         <Route path="/product/:id" element={<ProductDetails/>} />
         <Route path="/product/new" element={<NewProduct />} /> */}
 
-        <Route index element={<ProductList />} />
+        <Route index element={<ProductList/>} />
         <Route path=":id" element={<ProductDetails/>} />
-        <Route path="new" element={<NewProduct />} />
+        <Route path="new" element={<NewProduct/>} />
       </Routes>
     </Router>
   );
